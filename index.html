@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海のポートフォリオ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-900 relative"> <!-- 追加: relative -->
+    <div id="particles-js" class="absolute inset-0 z-0"></div> <!-- 追加: パーティクルを全体に表示 -->
+    <header class="bg-white shadow p-4 text-center text-xl font-bold relative z-10"> <!-- 追加: relative z-10 -->
+        My portfolio
+    </header>
+    <main class="p-4 relative z-10"> <!-- 追加: relative z-10 -->
+        <div class="flex justify-center mb-4">
+            <video src="iruka3000001-0100.mp4" class="w-full h-auto rounded-lg" muted autoplay loop></video>
+        </div>
+        <div class="flex justify-center mb-4">
+            <p class="text-center text-lg">空飛ぶ3Dイルカくん</p>
+        </div>
+        <div class="flex justify-center mb-4">
+            <img src="iruka2.png" alt="img" class="rounded-full border-blue square mt-32">
+        </div>
+        <div class="flex justify-center mb-4">
+            <p class="text-center text-base">幸運のヘルプマークを運ぶイルカ</p> <!-- 変更: text-lg から text-base へ -->
+        </div>
+
+
+        <div class="flex flex-col items-center">
+            <img src="13.png" alt="プロフィール画像" class="mb-4 w-1/2 mt-14">
+            <p class="text-center">
+                こんにちは、わたしはyukariです！
+                <br>
+                ヘルプマーク必須のユーザーです☆
+                <br>
+                趣味は、プログラミング、３D制作<br>
+                ぬいぐるみ作り、お絵描き、小説執筆です<br>
+                将来の夢は困った人を助けられるような<br>
+                アプリケーションを作ることです！<br>
+                <br>
+                ここに掲載しているもの<br>
+                イラストや文章,3D画像、HPをはじめ<br>
+                全部自分で作りました<br>
+                ぜひ見てくださると嬉しいです！<br>
+                よろしくお願いします！
+
+
+            </p>
+        </div>
+        <div class="container">
+                <a href="index.html" class="button button--1">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="fish"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <span class="button__text">My profile</span>
+                </a>
+
+                <a href="picture.html" class="button button--2">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="fish"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <span class="button__text">My picture</span>
+                </a>
+
+                <a href="story.html" class="button button--3">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="fish"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <span class="button__text">Short story</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-white shadow p-4 text-center text-sm relative z-10"> <!-- 追加: relative z-10 -->
+        <div class="text-center text-xs text-gray-500 mt-2">
+            &copy; 2024 Your Company. All rights reserved.
+        </div>
+    </footer>
+    <script src="particles-config.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles-config.js', function() {
+            console.log('particles.js loaded - callback');
+        });
+        particlesJS.load('particles-button-1', 'particles-config.js', function() {
+            console.log('particles.js loaded for button 1');
+        });
+        particlesJS.load('particles-button-2', 'particles-config.js', function() {
+            console.log('particles.js loaded for button 2');
+        });
+        particlesJS.load('particles-button-3', 'particles-config.js', function() {
+            console.log('particles.js loaded for button 3');
+        });
+    </script>
+
+</body>
+</html>
+</html>
