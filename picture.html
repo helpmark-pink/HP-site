@@ -17,6 +17,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100 text-gray-900 relative"> <!-- 追加: relative -->
+
+    <style>
+        @media (max-width: 768px) {
+            #particles-js {
+                display: block; /* スマホ表示でもパーティクルを表示 */
+            }
+        }
+    </style>
     <div id="particles-js" class="absolute inset-0 z-0"></div> <!-- 追加: パーティクルを全体に表示 -->
     <header class="bg-white shadow p-4 text-center text-xl font-bold relative z-10 mb-4"> <!-- 追加: mb-4 -->
         My picture
@@ -43,6 +51,13 @@
             <img src="12.png" alt="Image 12" class="w-full h-auto image-slide">
         </div>
 
+        <style>
+            @media (max-width: 768px) {
+                .button .fish {
+                    display: block; /* スマホ表示でもイルカを表示 */
+                }
+            }
+        </style>
 
         <div class="container">
             <a href="index.html" class="button button--1">

@@ -11,15 +11,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100 text-gray-900 relative"> <!-- 追加: relative -->
+
+    <style>
+        @media (max-width: 768px) {
+            #particles-js {
+                display: block; /* スマホ表示でもパーティクルを表示 */
+            }
+        }
+    </style>
     <div id="particles-js" class="absolute inset-0 z-0"></div> <!-- 追加: パーティクルを全体に表示 -->
     <header class="bg-white shadow p-4 text-center text-xl font-bold relative z-10"> <!-- 追加: relative z-10 -->
         My portfolio
     </header>
     <main class="p-4 relative z-10"> <!-- 追加: relative z-10 -->
         <div class="flex justify-center mb-4">
-            <video src="iruka3000001-0100.mp4" class="w-full h-auto rounded-lg" muted autoplay loop></video>
+            <video src="iruka3000001-0100.mp4" class="w-full h-auto max-w-full rounded-lg" muted autoplay loop playsinline webkit-playsinline></video> <!-- 追加: playsinline, webkit-playsinline -->
         </div>
-        <div class="flex justify-center mb-4">
+         <div class="flex justify-center mb-4">
             <p class="text-center text-lg">空飛ぶ3Dイルカくん</p>
         </div>
         <div class="flex justify-center mb-4">
@@ -51,6 +59,14 @@
 
             </p>
         </div>
+
+        <style>
+            @media (max-width: 768px) {
+                .button .fish {
+                    display: block; /* スマホ表示でもイルカを表示 */
+                }
+            }
+        </style>
         <div class="container">
                 <a href="index.html" class="button button--1">
                     <div class="wave"></div>
